@@ -27,4 +27,3 @@
     <!-- Embed Replit in an iframe (Note: Replit might block iframe embedding) -->
     <iframe src="https://replit.com" title="Replit" allowfullscreen></iframe>
 </body>
-</html>
