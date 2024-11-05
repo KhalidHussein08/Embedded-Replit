@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replit Embed</title>
+    <style>
+        /* Ensure the page takes up the full viewport height and removes margins */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Make iframe take up the full width and height */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;  /* Removes the iframe border */
+        }
+    </style>
+</head>
+<body>
+    <!-- Embed Replit in an iframe (Note: Replit might block iframe embedding) -->
+    <iframe src="https://replit.com" title="Replit" allowfullscreen></iframe>
+</body>
+</html>
